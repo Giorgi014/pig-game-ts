@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .margin_auto {
+    margin: 0 auto;
+  }
+   .box_shadow{
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.414);
+   }
+   .bg_one{
+    background-color: rgb(220, 174, 186);
+   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, rgb(193, 59, 66), rgb(120, 53, 127));
+}
