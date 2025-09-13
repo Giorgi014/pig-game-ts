@@ -4,12 +4,29 @@
   .margin_auto {
     margin: 0 auto;
   }
-   .box_shadow{
+  .box_shadow {
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.414);
-   }
-   .bg_one{
+  }
+  .bg_one {
     background-color: rgb(220, 174, 186);
-   }
+  }
+  .bg_two {
+    background-color: rgb(187, 122, 151);
+  }
+  .red_txt {
+    color: rgb(199, 54, 95);
+  }
+  .red_bg {
+    background-color: rgb(199, 54, 95);
+  }
+  .center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .btn_bg {
+    background-color: rgba(255, 255, 255, 0.648);
+  }
 }
 
 * {
